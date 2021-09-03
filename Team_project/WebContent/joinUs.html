@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="antiquewhite">
+<script>
+	function password_confirm(){
+		if(document.getElementById('pwd').value!=document.getElementById('pwd_c').value){
+			alert("비밀번호가 일치하지 않습니다");
+		}
+		else{
+			alert("비밀번호가 일치합니다 계속 진행해주세요");
+			document.getElementById('name').disabled=false;
+			document.getElementById('nick').disabled=false;
+		}
+	} 
+</script>
+<div align="center">회원가입</div>          
+<form action="data.jsp" method="post">
+	<label for="id">아이디</label>
+	<input type="text" name="id" id="id" required><br>
+	<label for="pwd">비밀번호</label>
+	<input type="password" name="pwd" id="pwd" required><br>
+	<label for="pwd_c">비밀번호 확인</label>
+	<input type="password" id="pwd_c" required>
+	<input type="button" id="c_button" onclick="password_confirm();" value="비밀번호 확인"><br> 
+	<label for="name">이름</label>
+	<input type="text" name="name" id="name" required disabled><br>
+	<label for="nick">닉네임</label>
+	<input type="text" name="nick" id="nick" required disabled><br>
+	<input type="submit" value="회원가입">&nbsp;<button type="button" onclick="location.href='login.jsp'" value="취소">취소</button>
+</form>
+</body>
+</html>

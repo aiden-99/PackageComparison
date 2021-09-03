@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body{
+	background-color:antiquewhite;
+}
+a{
+   text-decoration : none;
+}
+ul{
+   border: 1px solid black;
+   width: 757px;
+   height : 60px;
+   margin-bottom:0px;
+}
+li{
+   padding-top : 20px;
+   float : left;
+   width: 550px;
+   list-style-type: none;
+   font-size: 20px;
+}
+#map img{
+   width:800px;
+   height:450px;
+}
+#map{
+   margin-top:0px;
+   clear : both;
+   width: 100%;
+   height: 835px;
+}
+.img_button{
+   width : 30px;
+   height : 30px;
+}
+#argentina,#colombia,#brazil,#philippines,#japan,#china,#UK, #france, #germany, #eu, #asia, #SouthAmerica{
+   position: absolute;
+   font-size : 20px;
+   color : black;
+}
+#argentina{
+	top: 380px;
+   left: 305px;
+}
+#colombia{
+	top: 180px;
+   left: 185px;
+}
+#brazil{
+	top: 260px;
+   left: 505px;
+}
+#philippines{
+   top: 380px;
+   left: 625px;
+}
+#japan{
+	top: 270px;
+    left: 750px;
+}
+#china{
+	top: 285px;
+    left: 485px;
+}
+#UK{
+   top: 255px;
+   left: 168px;
+}
+#france{
+   top: 370px;
+   left: 205px;
+}
+#germany{
+   top: 300px;
+   left: 320px;
+}
+#eu{
+   top: 150px;
+   left: 350px;
+}
+#asia{
+   top: 150px;
+   left: 550px;
+}
+#SouthAmerica{
+   top:380px;
+   left: 170px;
+}
+a:hover{
+   color: red !important;
+}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+body{
+	background-color:antiquewhite;
+}
+#container{
+	width:757px;
+	height :613px;
+	border: 1px solid black;
+}
+a{
+   text-decoration : none;
+}
+.h{
+   width: 715px;
+   height : 60px;
+   margin-bottom:0px;
+   margin-right:0px;
+   padding-right:0px;
+}
+.nation{
+   color : Black;
+   padding-top:10px;
+   font-size:25px;
+   margin-top : 0px;
+   margin-bottom : 0px;
+   width: 757px;
+   height : 60px;
+}
+.h li{
+   padding-top : 20px;
+   float : left;
+   width: 550px;
+   list-style-type: none;
+   font-size: 20px;
+}
+#package_list li{
+   list-style-type: decimal; 
+   margin-left : 50px;
+   font-size:25px
+}
+#map img{
+   width:500px;
+   height:450px;
+}
+#map{
+   display:inline-block;
+   margin-top:0px;
+   float : left;
+   width: 370px;
+   height: 450px;
+}
+#pack{
+   display:inline-block;
+   margin-right:0px;
+   margin-left:127px;
+   float : left;
+   width: 258px;
+   height: 450px;
+}
+#package{
+	margin-left:0px;
+}
+button img{
+   width:20px;
+   heigth :20px;
+}
+.img_button{
+   width : 30px;
+   height : 30px;
+}
+a:hover{
+   color: red !important;
+}
